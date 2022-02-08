@@ -1,0 +1,126 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+p{
+    font-size: 15px;
+    font-weight: 100;
+}
+span{
+    font-weight: 100;
+}
+
+.section-white{
+    background-color: #FAF8F6;
+    
+}
+
+.section-cream{
+    background-color: #F3EDE7;
+}
+
+button{
+    padding: 9px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.btn-1{
+    color: black;
+    background-color: white;
+    margin-top: 10%;
+    padding: 9px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-right: 36px;
+}
+.btn-1:hover{
+    color: white;
+    background-color: #172339;
+}
+.btn-2{
+    background-color: black;
+    color: white;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.5;
+}
+.row-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.row-favicons{
+    display: flex;
+    justify-content: center;
+    line-height: 2; 
+}
+
+div.info{
+    width: 82%;
+    margin: 0 auto;
+    
+}
+div.row.row-favicons{
+    column-gap: 18px;
+}
+
+main.info{
+    margin-bottom: 90px;
+    margin-top: -90px;
+}
+main.main2{
+    background-color: #172339;
+    color: white;
+    margin-top: 220px;
+    border-radius: 10px;
+}
+.curve-line-1{
+    width: 50%;
+    margin-left: 28%;
+    margin-top: -170px;
+}
+.curve-line-1{
+    position: relative;
+    top: -10px;
+     
+}
+
+.jeremy{
+    position: relative;
+    top: -200px;
+    margin-left: 30%;
+}
+
+.image-hero{
+    width: 100%;
+}
+
+.main2-below{
+    text-align: center;
+}
+
+.span2{
+    font-weight: 100;
+}
+h5 span{
+    font-weight: 60;
+}
+.p{
+    width: 90%;
+    margin: 0 auto;
+}
