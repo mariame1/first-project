@@ -88,6 +88,7 @@ main.main2{
     color: white;
     margin-top: 220px;
     border-radius: 10px;
+    position: relative;
 }
 .curve-line-1{
     width: 50%;
@@ -123,4 +124,8 @@ h5 span{
 .p{
     width: 90%;
     margin: 0 auto;
+}
+
+footer{
+    margin-top: -7%;
 }
